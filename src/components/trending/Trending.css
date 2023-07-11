@@ -1,0 +1,106 @@
+.trending-container{
+    background-image: linear-gradient(to bottom right, rgb(180, 222, 247), rgb(245, 157, 226));
+    margin: 0;
+    padding:0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.card-container1{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+    flex-wrap: nowrap;
+
+    justify-content: center;
+    width: 100%;
+    /* margin:auto; */
+}
+.card-container2{
+   
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin:auto;
+    
+}
+.card1{
+    border:1px solid white;
+    background-color: white;
+    border-radius:15px;
+    margin:10px;
+    /* width: 100%; */
+ 
+    /* height: 50rem; */
+}
+.card2{
+    border:1px solid white;
+    background-color: white;
+    border-radius:15px;
+    margin:10px;
+    
+}
+AiFillStar{
+    color: rgb(240, 216, 6);
+}
+img{
+    margin: 10px;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    height: 15rem;
+    width: 15rem;
+    /* height:50; */
+    /* width: 250px; */
+}
+.cont-title{
+    background: #f17a18;
+    border-radius: 15px;
+    /* padding: 5px; */
+    color: white;
+    display: inline-block;
+    margin-top: 10px;
+    
+}   
+h5{
+    font-size: 20px;
+    /* padding-top: 10px; */
+}
+
+.card2>img:hover{
+    width: 100%;
+    margin: 0;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.card1>img:hover{
+    width: 100%;
+    margin: 0;
+    border-radius: 15px;
+}
+.price{
+    display: flex;
+    gap: 2rem;
+    margin-top: -4px;
+    list-style: none;
+    align-items: center;
+    padding-left: 3rem;
+}
+
+/* style={{ width: 250, height: 220  }}  */
+@media screen and (max-width:768px){
+    .card-container1{
+        grid-template-columns: repeat(2,1fr);
+    }
+    
+}
+
+@media screen and (max-width:992px){
+    .card-container1{
+        grid-template-columns: repeat(4,1fr);
+    }
+    
+}

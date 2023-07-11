@@ -1,0 +1,43 @@
+.Header-Container{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    display: flex;
+    background-image: linear-gradient(to bottom right, rgb(180, 222, 247), rgb(245, 157, 226));
+    margin-top: -2rem;
+    margin-bottom: -2rem;
+   
+
+}
+.tittle{
+    display: flex;
+    align-items: center;
+    flex:1;
+}
+.high{
+    font-size:30px;
+}
+p{
+    font: size 25px;
+}
+
+
+.Header-right{
+    display: flex;
+    gap: 2rem;
+    align-items:center;
+    justify-content: center;
+}
+.menu{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    
+}
+.menu>li:hover{
+    color:blue;
+    cursor:pointer;
+}
+.icon:hover{
+    color:blue;
+    cursor:pointer;
+}

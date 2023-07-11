@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-image: linear-gradient(to bottom right, rgb(180, 222, 247), rgb(245, 157, 226));
+  width: 100%;
 }
 
 .App-logo {
@@ -22,10 +24,8 @@
   color: #61dafb;
 }
 
-.heart {
-  color: #ff0000;
+.Header {
+  display: flex;
+  flex-wrap: nowrap;
 }
 
-.small {
-  font-size: 0.75rem;
-}
